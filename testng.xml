@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HomePage Suite">
+    <!-- Defines a TestNG suite named "HomePage Suite" -->
+
+    <test name="SmokeTests">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <!-- <class name="GitHub.GitHubTest"/> -->
+            <class name="GitHub.FirstGitHubTest"/>
+        </classes>
+    </test>
+
+</suite>
